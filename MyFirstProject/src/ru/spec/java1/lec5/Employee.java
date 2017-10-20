@@ -6,6 +6,8 @@ public class Employee {
 	String title;
 	int age;
 	
+	final int MAX =100;
+	
 	// инициализатор объекта, в порядке написания
 	{
 		System.out.println("init");
