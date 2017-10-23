@@ -3,13 +3,14 @@ package ru.spec.java1.lec6;
 import java.security.KeyStore.SecretKeyEntry;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.Map.Entry;
+import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.function.BiConsumer;
 
 public class MapTest {
 	public static void main(String[] args) {
-		HashMap<String, String> map = new HashMap<>();
+		Map<String, String> map = new TreeMap<>();
 		map.put("hello", "world");
 		map.put("heo", "wld");
 		map.put("he", "word");
